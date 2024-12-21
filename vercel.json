@@ -2,7 +2,7 @@
   "routes": [
     {
       "src": "/OneSignalSDKWorker.js",
-      "dest": "/OneSignalSDKWorker.js",
+      "dest": "/public/OneSignalSDKWorker.js",
       "status": 200,
       "headers": {
         "Content-Type": "application/javascript"
