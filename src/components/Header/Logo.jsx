@@ -1,21 +1,21 @@
-import { animateScroll } from 'react-scroll';
+import { animateScroll } from "react-scroll";
 import styles from "./Logo.module.css";
 
 function Logo() {
-    const options = {
-        duration: 500,
-        smooth: "easeInOutQuint",
-    };
+  const options = {
+    duration: 500,
+    smooth: "easeInOutQuint",
+  };
 
-    const handleScrollToTop = () => {
-        animateScroll.scrollToTop(options);
-    };
+  const handleScrollToTop = () => {
+    animateScroll.scrollToTop(options);
+  };
 
-    return (
-        <div className={styles.logo} onClick={handleScrollToTop}>
-            Quir<span className={styles.highlight}>V</span>ibe
-        </div>
-    );
+  return (
+    <div className={styles.logo} onClick={handleScrollToTop}>
+      Quir<span className={styles.highlight}>V</span>ibe
+    </div>
+  );
 }
 
 export default Logo;

@@ -1,11 +1,10 @@
 .bg {
-    background-color: var(--backGround-color-sec);
-    padding: 20px 0px;
+  background-color: var(--backGround-color-sec);
+  padding: 20px 0px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-
